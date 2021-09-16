@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for GetCommunityImages 1`] = `
+<section
+  className="services-container"
+  data-testid="test-getCommunityImages"
+>
+  <div
+    className="text-center"
+  >
+    <div
+      className="form-group row d-flex justify-content-center pt-5"
+    >
+      <input
+        className="form-control border border-danger col-5 "
+        onChange={[Function]}
+        placeholder="Type for finding images"
+        type=""
+      />
+    </div>
+  </div>
+  <div
+    className="d-flex justify-content-center align-items-center"
+  >
+    <div
+      className="w-100 row pb-5  justify-content-center"
+    />
+  </div>
+</section>
+`;

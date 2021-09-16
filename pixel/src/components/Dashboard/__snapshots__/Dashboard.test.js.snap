@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for dashboard 1`] = `
+Array [
+  "  ",
+  <div
+    data-testid="test-Dashboard"
+  >
+    <div
+      className="text-light"
+      style={
+        Object {
+          "background": "#12161f",
+          "height": "950px",
+        }
+      }
+    >
+      <div
+        className="full-container"
+        data-testid="test-Navbar"
+      >
+        <nav
+          className="navbar navbar-expand-lg navbar-light p-0 bg-dark "
+        >
+          <div
+            className="container-fluid text-light"
+          >
+            <a
+              className="navbar-brand d-flex align-items-center"
+              href="/"
+              onClick={[Function]}
+            >
+              <img
+                alt="Icon"
+                className="logo"
+                src="icon.png"
+                style={
+                  Object {
+                    "width": "50px",
+                  }
+                }
+              />
+              <h1
+                className="pl-3 text-light"
+              >
+                Pixel
+              </h1>
+            </a>
+            <button
+              className="btn btn-danger ml-3"
+            >
+              <a
+                className="text-light"
+                href="/addImage"
+                onClick={[Function]}
+              >
+                 Upload Image 
+              </a>
+            </button>
+            <button
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              className="navbar-toggler"
+              data-target="#navbarNavAltMarkup"
+              data-toggle="collapse"
+              type="button"
+            >
+              <span
+                className="navbar-toggler-icon"
+              />
+            </button>
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div
+                className="navbar-nav"
+              >
+                <a
+                  className="nav-link active px-3 text-light h5  my-2"
+                  href="/"
+                  onClick={[Function]}
+                >
+                   Home 
+                  <span
+                    className="sr-only"
+                  >
+                    (current)
+                  </span>
+                   
+                </a>
+                <a
+                  className="nav-link px-3 my-2"
+                >
+                  <a
+                    className="text-light h5 "
+                    href="/dashboard"
+                    onClick={[Function]}
+                  >
+                    Images
+                  </a>
+                </a>
+                <button
+                  className="btn btn-outline-danger mx-3 my-2"
+                  type="button"
+                >
+                   
+                  <a
+                    className="text-light"
+                    href="/signedIn"
+                    onClick={[Function]}
+                  >
+                    Sign In
+                  </a>
+                    
+                </button>
+                <button
+                  className="btn btn-danger mx-3 my-2"
+                >
+                  <a
+                    className="text-light"
+                    href="/signedIn"
+                    onClick={[Function]}
+                  >
+                    Sign Up
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <h1
+        className=" pt-5 text-center"
+      >
+        Hi 
+        Mohammad Eusha
+         , Here Is your Uploaded Images.
+      </h1>
+      <div
+        className="row mt-5"
+      >
+        <div
+          className="col-md-6"
+        >
+          <h1
+            className="text-center"
+          >
+            Public Images
+          </h1>
+          <div
+            className="row d-flex justify-content-center"
+          />
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <h1
+            className="text-center"
+          >
+            Private Images
+          </h1>
+          <div
+            className="row d-flex justify-content-center"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "  ",
+]
+`;
+
+exports[`matches snapshot for privateImg 1`] = `
+<div
+  className="card bg-secondary mx-1 my-1"
+  data-testid="test-PrivateImg"
+  style={
+    Object {
+      "width": "30%",
+    }
+  }
+>
+  <img
+    alt="Sleeping Cat"
+    className="card-img-top h-50"
+    src="https://firebasestorage.googleapis.com/v0/b/pixel-image-uploader.appspot.com/o/images%2F8c5dc61b7c71444ca37bc342020e7891.jpg?alt=media&token=4fbf17bd-e125-4536-a02b-1f40518dbdcd"
+  />
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title text-light text-center"
+    >
+      Sleeping Cat
+    </h5>
+  </div>
+  <div
+    classNameName="card-footer"
+  >
+    <button
+      className="btn btn-danger btn-block"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for publicImg 1`] = `
+<div
+  className="card bg-secondary mx-1 my-1"
+  data-testid="test-PublicImg"
+  style={
+    Object {
+      "width": "30%",
+    }
+  }
+>
+  <img
+    alt="Sleeping Cat"
+    className="card-img-top h-50"
+    src="https://firebasestorage.googleapis.com/v0/b/pixel-image-uploader.appspot.com/o/images%2F8c5dc61b7c71444ca37bc342020e7891.jpg?alt=media&token=4fbf17bd-e125-4536-a02b-1f40518dbdcd"
+  />
+  <div
+    className="card-body"
+  >
+    <h5
+      className="text-light text-center"
+    >
+      Sleeping Cat
+    </h5>
+  </div>
+  <div
+    classNameName="card-footer"
+  >
+    <button
+      className="btn btn-danger btn-block"
+      onClick={[Function]}
+    >
+      Delete
+    </button>
+  </div>
+</div>
+`;

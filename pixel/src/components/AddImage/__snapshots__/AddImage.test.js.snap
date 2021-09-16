@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for AddImage 1`] = `
+Array [
+  " ",
+  <section
+    data-testid="test-addImage"
+  >
+    <div
+      className="full-container"
+      data-testid="test-Navbar"
+    >
+      <nav
+        className="navbar navbar-expand-lg navbar-light p-0 bg-dark "
+      >
+        <div
+          className="container-fluid text-light"
+        >
+          <a
+            className="navbar-brand d-flex align-items-center"
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="Icon"
+              className="logo"
+              src="icon.png"
+              style={
+                Object {
+                  "width": "50px",
+                }
+              }
+            />
+            <h1
+              className="pl-3 text-light"
+            >
+              Pixel
+            </h1>
+          </a>
+          <button
+            className="btn btn-danger ml-3"
+          >
+            <a
+              className="text-light"
+              href="/addImage"
+              onClick={[Function]}
+            >
+               Upload Image 
+            </a>
+          </button>
+          <button
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler"
+            data-target="#navbarNavAltMarkup"
+            data-toggle="collapse"
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div
+              className="navbar-nav"
+            >
+              <a
+                className="nav-link active px-3 text-light h5  my-2"
+                href="/"
+                onClick={[Function]}
+              >
+                 Home 
+                <span
+                  className="sr-only"
+                >
+                  (current)
+                </span>
+                 
+              </a>
+              <a
+                className="nav-link px-3 my-2"
+              >
+                <a
+                  className="text-light h5 "
+                  href="/dashboard"
+                  onClick={[Function]}
+                >
+                  Images
+                </a>
+              </a>
+              <button
+                className="btn btn-outline-danger mx-3 my-2"
+                type="button"
+              >
+                 
+                <a
+                  className="text-light"
+                  href="/signedIn"
+                  onClick={[Function]}
+                >
+                  Sign In
+                </a>
+                  
+              </button>
+              <button
+                className="btn btn-danger mx-3 my-2"
+              >
+                <a
+                  className="text-light"
+                  href="/signedIn"
+                  onClick={[Function]}
+                >
+                  Sign Up
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div
+      className="addImage"
+      style={
+        Object {
+          "background": "#12161f",
+          "height": "910px",
+          "paddingTop": "50px",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        className="container text-center"
+        style={
+          Object {
+            "left": "50%",
+            "position": "absolute",
+            "top": "50%",
+            "transform": "translate(-50%, -50%)",
+          }
+        }
+      />
+      <form
+        className="container"
+        id="uploadImage"
+      >
+        <h1
+          className="text-center text-light pb-5"
+        >
+          Please Click On The Button To Upload Your Image
+        </h1>
+        <div
+          className="form-row d-flex justify-content-center"
+        >
+          <div
+            className="input-group input-group-lg col-6"
+          >
+            <input
+              aria-describedby="inputGroup-sizing-lg"
+              aria-label="Sizing example input"
+              className="form-control pt-1"
+              onChange={[Function]}
+              type="file"
+            />
+          </div>
+          <div
+            className="col-1 "
+          >
+            <button
+              className="btn btn-danger"
+              onClick={[Function]}
+              style={
+                Object {
+                  "padding": "11px",
+                }
+              }
+              type="button"
+            >
+              Upload
+            </button>
+          </div>
+        </div>
+      </form>
+      <div
+        className=" my-3 container text-center"
+        id="imagePart"
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <h6
+          className="text-light py-3 pb-5"
+        >
+           Image URL: 
+          
+           
+        </h6>
+        <img
+          alt=""
+          className="card-img-top text-center pb-5"
+          src=""
+          style={
+            Object {
+              "height": "auto",
+              "width": "30%",
+            }
+          }
+        />
+        <div
+          className="row pb-5"
+        >
+          <div
+            className="input-group my-3 w-50 text-center col-10 "
+          >
+            <input
+              aria-describedby="button-addon2"
+              aria-label="Image Title"
+              className="form-control border border-danger"
+              onChange={[Function]}
+              placeholder="Image Title"
+              type="text"
+            />
+            <button
+              className="btn btn-outline-danger text-light ml-3"
+              id="button-addon2"
+              onClick={[Function]}
+              type="button"
+            >
+              Add Private
+            </button>
+            <button
+              className="btn btn-outline-danger ml-3 col-2 text-light"
+              onClick={[Function]}
+              type="button"
+            >
+               To Community 
+            </button>
+            <button
+              className="btn btn-outline-danger ml-3 col-2 text-light"
+              onClick={[Function]}
+              type="button"
+            >
+               Delete 
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  " ",
+]
+`;
