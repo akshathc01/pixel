@@ -3,9 +3,10 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const { MongoClient } = require('mongodb');
 const ObjectId = require('mongodb').ObjectId;
+require('dotenv').config();
 
 
-const uri = "mongodb+srv://pixel:1cFRy2MoV8owyrMU@cluster0.58py8.mongodb.net/pixelImageUploader?retryWrites=true&w=majority";
+const uri = process.env.DB;
 
 console.log('Database is working')
 
@@ -81,7 +82,7 @@ client.connect(err => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World! New Project.')
+  res.send('Hello World!')
 })
 
 app.listen(process.env.PORT || port)
