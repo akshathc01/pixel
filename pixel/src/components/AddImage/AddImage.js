@@ -143,14 +143,15 @@ const AddImage = () => {
         </form>
 
         <div style={{ display: 'none' }} id="imagePart" className=" my-3 container text-center">
-          <h6 className="text-light py-3 pb-5"> Image URL: {url} </h6>
+
           <img src={url} className="card-img-top text-center pb-5" alt={title} style={{ width: '30%', height: 'auto' }} />
           <div className="row pb-5">
-            <div className="input-group my-3 w-50 text-center col-10 ">
+            <div className="input-group my-3 w-50 text-center col-5 ">
               <input onChange={(e) => { setTitle(e.target.value) }} type="text" className="form-control border border-danger" placeholder="Image Title" aria-label="Image Title" aria-describedby="button-addon2" />
-
-              <button onClick={handlePrivate} className="btn btn-outline-danger text-light ml-3" type="button" id="button-addon2">Add Private</button>
-              <button onClick={handleCommunity} className="btn btn-outline-danger ml-3 col-2 text-light" type="button"> To Community </button>
+            </div>
+            <div className="input-group my-3 w-50 text-center col-10 ">
+              <button onClick={handlePrivate} className="btn btn-outline-danger text-light ml-3" type="button" id="button-addon2"> Add to Private Collection </button>
+              <button onClick={handleCommunity} className="btn btn-outline-danger ml-3 col-2 text-light" type="button"> Post Publicly </button>
               <button onClick={handleDelete} className="btn btn-outline-danger ml-3 col-2 text-light" type="button"> Delete </button>
             </div>
           </div>

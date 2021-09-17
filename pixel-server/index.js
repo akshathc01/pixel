@@ -8,16 +8,16 @@ require('dotenv').config();
 
 const uri = process.env.DB;
 
-console.log('Database is working')
+console.log('Database is working');
 
-const app = express()
+const app = express();
 
 app.use(express.json());
 
 app.use(cors());
 
 
-const port = 3002
+const port = 3002;
 
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });

@@ -90,7 +90,7 @@ const Login = () => {
             <Navbar></Navbar>
             <div className=" pt-5 text-light">
                 <div className="text-center">
-                    <h1 className="text-light px-5 mx-5">Welcome To Pixel .Please Sign In With Your Google To Go Further...!!!!</h1>
+                    <h1 className="text-light px-5 mx-5">Welcome To Pixel!</h1>
                 </div>
 
                 <div className="row d-flex align-items-center justify-content-center">
@@ -104,8 +104,8 @@ const Login = () => {
                                         {newUser && <input class="form-control text-dark" type="text" name="name" onBlur={handleBlur} placeholder="Your Name" required />}
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input class="form-control text-dark" type="text" name="email" onBlur={handleBlur} placeholder="Your Email address" required />
+                                        <label for="exampleInputEmail1">Email Address</label>
+                                        <input class="form-control text-dark" type="text" name="email" onBlur={handleBlur} placeholder="Your Email Address" required />
                                     </div>
                                     <div class="form-group">
                                         <label for="exampleInputPassword1">Password</label>
@@ -114,16 +114,16 @@ const Login = () => {
                                     <div className="d-grid">
                                         <input className="btn-lg  btn-block btn-danger" type="submit" value={newUser ? 'Sign Up' : 'Sign In'} />
                                     </div>
-                                    <div >
+                                    <div style={{marginTop: '10px'}}>
                                         {newUser ?
-                                            <h5>Signed Up Already??? Ok Then <a className="text-danger" onClick={() => setNewUser(!newUser)} href="#">Sign In</a></h5>
+                                            <h5>Returning users: <a className="text-danger" onClick={() => setNewUser(!newUser)} href="#">Sign In</a></h5>
                                             :
-                                            <h5>New Here??? Become One Of Us <a className="text-danger" onClick={() => setNewUser(!newUser)} href="#">Sign Up</a></h5>}
+                                            <h5>Not registered? Sign up <a className="text-danger" onClick={() => setNewUser(!newUser)} href="#">here.</a></h5>}
                                     </div>
                                 </form>
 
                                 <p style={{ color: 'red' }}>{user.error}</p>
-                                {user.success && <p style={{ color: 'green' }}>User {newUser ? 'created' : 'Logged In'} successfully</p>}
+                                {user.success && <p style={{ color: 'green' }}>User {newUser ? 'Account created' : 'Logged In'} successfully</p>}
                             </div>
                         </div>
                         <div className="d-flex justify-content-center pt-5">
