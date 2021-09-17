@@ -1,6 +1,6 @@
 # Pixel- Shopify Winter 2022 Backend Intern Challenge
 <p align="center"><img width="564" alt="Screen Shot 2021-09-17 at 3 10 56 AM" src="https://user-images.githubusercontent.com/59202054/133740125-e41e3ec6-12d4-4edb-9e05-f158a707aaa7.png"></p>
-This is my submission for Shopify's Winter 2022 Backend intern challenge. 
+This is my submission for Shopify's Winter 2022 Backend Developer intern challenge. 
 
 ## Table of Contents
 
@@ -9,11 +9,14 @@ This is my submission for Shopify's Winter 2022 Backend intern challenge.
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup](#setup)
+- [Adding Images](#adding-images)
+- [Removing Images](#removing-images)
+- [Searching Images](#searching-images)
 
 
 
 ## Overview
-Pixel is an image repository built in response to Shopify's Winter 2022 Backend intern challenge. The challenge can be found [here](https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit). It supports all CRUD operations, which are shown in detail below. It also supports user authentication and private images. 
+Pixel is an image repository built in response to Shopify's Winter 2022 Backend Developer intern challenge. The challenge can be found [here](https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit). It supports all CRUD operations, which are shown in detail below. It also supports user authentication and private images. 
 
 ## Features
 - User can add any amount of public images that would be visible to the entire community. 
@@ -84,6 +87,8 @@ Searching for Shopify:
 Searching for River:
 
 <img width="947" alt="Screen Shot 2021-09-17 at 3 48 57 AM" src="https://user-images.githubusercontent.com/59202054/133745797-15d56e41-7a91-49e4-87c3-21326fe7a091.png">
+
+
 
 
 
