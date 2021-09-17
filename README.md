@@ -1,4 +1,4 @@
-# Pixel- Shopify Winter 2022 Backend Intern Challenge
+# Pixel - Shopify Winter 2022 Backend Intern Challenge
 <p align="center"><img width="564" alt="Screen Shot 2021-09-17 at 3 10 56 AM" src="https://user-images.githubusercontent.com/59202054/133740125-e41e3ec6-12d4-4edb-9e05-f158a707aaa7.png"></p>
 This is my submission for Shopify's Winter 2022 Backend Developer intern challenge. 
 
