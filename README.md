@@ -12,6 +12,8 @@ This is my submission for Shopify's Winter 2022 Backend Developer intern challen
 - [Adding Images](#adding-images)
 - [Removing Images](#removing-images)
 - [Searching Images](#searching-images)
+- [Authentication](#authentication)
+- [Tests](#tests)
 
 
 
@@ -88,8 +90,15 @@ Searching for River:
 
 <img width="947" alt="Screen Shot 2021-09-17 at 3 48 57 AM" src="https://user-images.githubusercontent.com/59202054/133745797-15d56e41-7a91-49e4-87c3-21326fe7a091.png">
 
+## Authentication
+Users need to authenticate themselves by either signing up or using Google:
 
+<img width="1440" alt="Screen Shot 2021-09-17 at 4 04 58 AM" src="https://user-images.githubusercontent.com/59202054/133747512-a3e18b0f-8d8c-43b4-bb56-322738a9f15c.png">
 
+## Tests
+I have added 29 tests as I followed TDD principles:
+
+<img width="755" alt="Screen Shot 2021-09-17 at 4 10 55 AM" src="https://user-images.githubusercontent.com/59202054/133749103-f7b2c5d2-0dd1-4802-ac88-e2c96fd04231.png">
 
 
 
